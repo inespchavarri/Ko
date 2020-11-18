@@ -192,7 +192,7 @@ def end(update, context):
 
 
 def main():
-    updater = Updater(token="1310636150:AAHw8UIB6PVEBpwCTZVmNcX_C_WAHOOyfP8", use_context=True)
+    updater = Updater(token=TOKEN, use_context=True)
 
     dp = updater.dispatcher
 
