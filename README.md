@@ -6,11 +6,7 @@ Para entablar una conversión con Ko, sólo tienes que buscarlo en Telegram (@Ko
 
 A través de un sencillo menú, podrás obtener información sobre los indicadores básicos de la evolución de la pandemia, además de información relativa a las restricciones vigentes, cómo prevenir contagios y qué hacer si tienes síntomas.
 
-
 ##Por dentro
-
-
-
 El proyecto nace con el objetivo de presentarlo a la tercera edición del concurso Open Data organizado por el Gobierno vasco en colaboración con las tres diputaciones forales, y los ayuntamientos de las tres capitales de vascas. 
 
 
