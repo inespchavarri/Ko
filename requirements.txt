@@ -1,0 +1,2 @@
+python-telegram-bot==13.0
+pickleshare==0.7.5
