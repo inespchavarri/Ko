@@ -6,6 +6,7 @@ El proyecto ha sido presentado a la tercera edición del concurso Open Data del 
 
 
 
+
 ### Cómo funciona
 
 Para entablar una conversión con Ko, sólo tienes que buscarlo en Telegram (@Ko19Bot) o abrir este enlace: https://t.me/Ko19Bot.
@@ -14,13 +15,13 @@ A través de un sencillo menú, podrás obtener información sobre los indicador
 
 <div class="row">
   <div class="column">
-    <img src="recursos/cap1.PNG" width="30%" height="30%">
+    <img src="recursos/cap1.PNG" width="20%" height="20%">
   </div>
   <div class="column">
-    <img src="recursos/cap2.PNG" width="30%" height="30%">
+    <img src="recursos/cap2.PNG" width="20%" height="20%">
   </div>
   <div class="column">
-    <img src="recursos/cap3.PNG" width="30%" height="30%">
+    <img src="recursos/cap3.PNG" width="20%" height="20%">
   </div>
 </div>
 
