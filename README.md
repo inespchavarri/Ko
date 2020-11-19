@@ -16,7 +16,7 @@ A través de un sencillo menú, podrás obtener información sobre los indicador
 
 <img src="recursos/cap1.PNG" width="25%" height="25%" ALIGN="left">
 <img src="recursos/cap2.PNG" width="25%" height="25%" ALIGN="center">
-<img src="recursos/cap3.PNG" width="25%" height="25%" ALIGN="right">
+<img src="recursos/cap3.PNG" width="25%" height="25%" ALIGN="center">
 
 
 
