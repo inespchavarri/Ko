@@ -1,3 +1,6 @@
+# Para el diseño del bot he adaptado este ejemplo de la librería Python Telegram Bot:
+# https://github.com/python-telegram-bot/python-telegram-bot/blob/master/examples/inlinekeyboard2.py
+
 import logging
 import pickle
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
@@ -8,7 +11,10 @@ from telegram.ext import (
     ConversationHandler,
     CallbackContext,
 )
+import os
 
+
+PORT = int(os.environ.get('PORT', 5000))
 
 
 logging.basicConfig(
@@ -16,6 +22,9 @@ logging.basicConfig(
 )
 
 logger = logging.getLogger(__name__)
+
+
+TOKEN = "YOURTELEGRAMBOTTOKEN"
 
 #Mensajes
 
@@ -26,7 +35,6 @@ ayuda_m = pickle.load(archivo)
 casos_m = pickle.load(archivo)
 hospitales_m = pickle.load(archivo)
 fallecidos_m = pickle.load(archivo)
-#finde_m = pickle.load(archivo)
 restricciones_m = pickle.load(archivo)
 prevencion_m = pickle.load(archivo)
 sintomas_m = pickle.load(archivo)
@@ -175,8 +183,8 @@ def cierre(update, context):
     query = update.callback_query
     query.answer()
     keyboard = [
-        [InlineKeyboardButton("Sí, necesito más información!", callback_data=str(ONE))],
-        [InlineKeyboardButton("No, eskerrik asko!", callback_data=str(TWO))]
+        [InlineKeyboardButton("Sí, ¡Necesito más información!", callback_data=str(ONE))],
+        [InlineKeyboardButton("No, Eskerrik Asko!", callback_data=str(TWO))]
     ]
 
     reply_markup = InlineKeyboardMarkup(keyboard)
@@ -192,7 +200,7 @@ def end(update, context):
 
 
 def main():
-    updater = Updater(token="TOKEN", use_context=True)
+    updater = Updater(token=TOKEN, use_context=True)
 
     dp = updater.dispatcher
 
@@ -217,8 +225,12 @@ def main():
     )
 
     dp.add_handler(conv_handler)
+    
+    updater.start_webhook(listen="0.0.0.0",
+                          port=int(PORT),
+                          url_path=TOKEN)
+    updater.bot.setWebhook("https://yourherokuappname.herokuapp.com/" + TOKEN)
 
-    updater.start_polling()
     updater.idle()
 
 
