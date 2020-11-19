@@ -13,17 +13,12 @@ Para entablar una conversión con Ko, sólo tienes que buscarlo en Telegram (@Ko
 
 A través de un sencillo menú, podrás obtener información sobre los indicadores básicos de la evolución de la pandemia, además de información relativa a las restricciones vigentes, cómo prevenir contagios y qué hacer si tienes síntomas.
 
-<div class="row">
-  <div class="column">
-    <img src="recursos/cap1.PNG" width="20%" height="20%">
-  </div>
-  <div class="column">
-    <img src="recursos/cap2.PNG" width="20%" height="20%">
-  </div>
-  <div class="column">
-    <img src="recursos/cap3.PNG" width="20%" height="20%">
-  </div>
-</div>
+
+<img src="recursos/cap1.PNG" width="20%" height="20%" ALIGN="left">
+<img src="recursos/cap2.PNG" width="20%" height="20%" ALIGN="center">
+<img src="recursos/cap3.PNG" width="20%" height="20%" ALIGN="rigth">
+
+
 
 ### Por dentro
 
