@@ -14,13 +14,13 @@ A través de un sencillo menú, podrás obtener información sobre los indicador
 
 <div class="row">
   <div class="column">
-    <img src="recursos/cap1.jpg" width="75%" height="75%">
+    <img src="recursos/cap1.png" width="75%" height="75%">
   </div>
   <div class="column">
-    <<img src="recursos/cap2.jpg" width="75%" height="75%">
+    <img src="recursos/cap2.png" width="75%" height="75%">
   </div>
   <div class="column">
-    <img src="recursos/cap3.jpg" width="75%" height="75%">
+    <img src="recursos/cap3.png" width="75%" height="75%">
   </div>
 </div>
 
