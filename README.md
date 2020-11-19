@@ -4,13 +4,13 @@
 
 El proyecto ha sido presentado a la tercera edición del concurso Open Data del Gobierno vasco.
 
-##Cómo funciona
+### Cómo funciona
 
 Para entablar una conversión con Ko, sólo tienes que buscarlo en Telegram (@Ko19Bot) o abrir este enlace: https://t.me/Ko19Bot.
 
 A través de un sencillo menú, podrás obtener información sobre los indicadores básicos de la evolución de la pandemia, además de información relativa a las restricciones vigentes, cómo prevenir contagios y qué hacer si tienes síntomas.
 
-##Por dentro
+### Por dentro
 
 He programado el bot en Python a través de la librería Python Telegram Bot y he adaptado para el diseño de la conversación [uno de los ejemplos de la documentación oficial de la propia librería, incluyendo más opciones de interacción para el usuario](https://github.com/python-telegram-bot/python-telegram-bot/blob/master/examples/inlinekeyboard2.py).
 
