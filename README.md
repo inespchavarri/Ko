@@ -5,19 +5,15 @@
 El proyecto ha sido presentado a la tercera edición del concurso Open Data del Gobierno vasco.
 
 
-
-
 ### Cómo funciona
 
 Para entablar una conversión con Ko, sólo tienes que buscarlo en Telegram (@Ko19Bot) o abrir este enlace: https://t.me/Ko19Bot.
 
 A través de un sencillo menú, podrás obtener información sobre los indicadores básicos de la evolución de la pandemia, además de información relativa a las restricciones vigentes, cómo prevenir contagios y qué hacer si tienes síntomas.
 
-
-<img src="recursos/cap1.PNG" width="20%" height="20%" ALIGN="left">
-<img src="recursos/cap2.PNG" width="20%" height="20%" ALIGN="center">
-<img src="recursos/cap3.PNG" width="20%" height="20%" ALIGN="rigth">
-
+<img src="recursos/cap1.PNG" width="25%" height="25%" ALIGN="left">
+<img src="recursos/cap2.PNG" width="25%" height="25%" ALIGN="center">
+<img src="recursos/cap3.PNG" width="25%" height="25%" ALIGN="right">
 
 
 ### Por dentro
