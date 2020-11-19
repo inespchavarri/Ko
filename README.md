@@ -1,6 +1,6 @@
 # Kaixo! Me llamo Ko!
 
-<img src="recursos/kob.png" width="150" height="100" />
+<img src="recursos/kob.png" width="50%" height="50%" />
 
 **Ko** es un bot de Telegram que ofrece a los usuarios información básica sobre la evolución de la pandemia de la Covid-19 en Euskadi. El proyecto nace con el objetivo de facilitar a cualquier persona acceso rápido y sencillo a los indicadores básicos que miden la evolución de la pandemia (casos, incidencia, situación hospitales y decesos) para que en todo momento cualquier ciudadano interesado tenga una fotografía real de la situación. El bot además ofrece información sobre las restricciones vigentes, cómo prevenir contagios y qué hacer en caso de tener síntomas.
 
